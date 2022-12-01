@@ -10,4 +10,4 @@ Token lengths used: 150
 For the FCNN (fully connected neural network) the texts were compressed into 1D vectors by simple averaging over tokens in the text.
 
 Accuracy of Transformer was 0.92 compared to 0.85 for the FCNN, demostrating the power of the transformer. However, the computational power
-needed to train the Transformer vastly outweighs the 7% improvement in classification. Without the use of a GPU this training would take far too long.
+needed to train the Transformer vastly outweighs the 7% improvement in classification. This is because the transformer has over 400,000 trainable parameters compared to around 60,000 for the FCNN. Without the use of a GPU this training would take far too long.
